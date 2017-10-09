@@ -1,5 +1,8 @@
 # Week3
 R-coursera
+## A pair of functions that cache the inverse of a matrix
+## Creates a special matrix that acts as a "wrapper" around the matrix data and inverse.
+
 <- function(x = matrix()) {
   inv <- NULL
 }
@@ -12,7 +15,9 @@ R-coursera
   getinverse <- function() inv 
   list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
   
+	## Calculates the inverse of a Matrix   
 <- function(x, ...) 
+ ## Return a matrix that is the inverse of 'x'
 inv <- x$getinverse()
 if(!is.null(inv)) { 
 message("getting cached data")
